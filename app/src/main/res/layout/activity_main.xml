@@ -1,0 +1,71 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0a7c"
+    android:textColor="#ffffff">
+
+    <TextView
+        android:id="@+id/lyla_text_view"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:text="Wins: 16"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/natalie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:text="KO's: 13"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="Losses: 0"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/amy_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/jennie_text_view"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="4dp"
+            android:padding="50dp"
+            android:text="Ryan Garcia"
+            android:textColor="#000000"
+            android:textSize="58dp"
+            android:layout_marginRight="3dp"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="135dp"
+            tools:src="@drawable/garcia" />
+
+
+</RelativeLayout>
